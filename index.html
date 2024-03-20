@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Project Jokes</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI Jokes generator</h1>
       </header>
       <main>
-        <form>
+        <form id="jokes">
           <input
             type="text"
             placeholder="Enter the theme"
@@ -24,7 +25,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="joke">jokityJokes</div>
+      <div class="joke" id="joking"></div>
       <footer>
         This AI project was coded by
         <a href="https://github.com/Rebeka23-git" target="_blank">RSKP</a> and
