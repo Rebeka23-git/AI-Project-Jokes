@@ -7,33 +7,40 @@
     <title>AI Project Jokes</title>
   </head>
   <body>
-    <header>
-      <h1>AI Jokes generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the theme"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-    </main>
-    <div>jokityJokes</div>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Rebeka23-git" target="_blank">RSKP</a> and is
-      <a href="https://github.com/Rebeka23-git/AI-Project-Jokes" target="_blank"
-        >opened-sourced on Github</a
-      >
-      and is hosted on
-      <a href="https://ai-project-jokes.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Jokes generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the theme"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </main>
+      <div class="joke">jokityJokes</div>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Rebeka23-git" target="_blank">RSKP</a> and
+        is
+        <a
+          href="https://github.com/Rebeka23-git/AI-Project-Jokes"
+          target="_blank"
+          >opened-sourced on Github</a
+        >
+        and is hosted on
+        <a href="https://ai-project-jokes.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
