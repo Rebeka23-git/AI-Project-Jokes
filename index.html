@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>AI Project Jokes</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Jokes generator</h1>
+        <h1>AI "funny" jokes generator</h1>
       </header>
       <main>
         <form id="jokes">
@@ -21,11 +22,12 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="joke" id="joking"></div>
+      <div class="hidden joke" id="joking"></div>
       <footer>
         This AI project was coded by
         <a href="https://github.com/Rebeka23-git" target="_blank">RSKP</a> and
