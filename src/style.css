@@ -57,8 +57,19 @@ form {
   margin-bottom: 30px;
   border-radius: 4px;
 }
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 11px;
   margin-top: 30px;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
 }

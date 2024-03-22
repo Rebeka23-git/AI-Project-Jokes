@@ -20,7 +20,7 @@ function generateJoke(event) {
   let jokeElement = document.querySelector("#joking");
   jokeElement.classList.remove("hidden");
 
-  jokeElement.innerHTML = `<div classs = "generating"> Generating a joke about ${instructionsInput.value}</div>`;
+  jokeElement.innerHTML = `<span class = "blink"> ⏳ </span> Generating a joke about ${instructionsInput.value}`;
   axios.get(apiUrl).then(displayJoke);
 }
 
